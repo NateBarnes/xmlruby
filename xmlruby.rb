@@ -17,5 +17,3 @@ class XMLRuby
     ast = Ox.load(rxml, :method => :object)
   end
 end
-
-XMLRuby.dump_from_file ARGV[0]

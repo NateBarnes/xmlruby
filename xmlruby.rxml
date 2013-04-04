@@ -644,7 +644,7 @@
               <a>
                 <a>
                   <m>@ident</m>
-                  <s>filename</s>
+                  <s>rxml</s>
                   <a>
                     <i>16</i>
                     <i>16</i>
@@ -660,75 +660,111 @@
               <m>bodystmt</m>
               <a>
                 <a>
-                  <m>void_stmt</m>
-                </a>
-              </a>
-              <z/>
-              <z/>
-              <z/>
-            </a>
-          </a>
-        </a>
-        <z/>
-        <z/>
-        <z/>
-      </a>
-    </a>
-    <a>
-      <m>command_call</m>
-      <a>
-        <m>var_ref</m>
-        <a>
-          <m>@const</m>
-          <s>XMLRuby</s>
-          <a>
-            <i>21</i>
-            <i>0</i>
-          </a>
-        </a>
-      </a>
-      <m>.</m>
-      <a>
-        <m>@ident</m>
-        <s>dump_from_file</s>
-        <a>
-          <i>21</i>
-          <i>8</i>
-        </a>
-      </a>
-      <a>
-        <m>args_add_block</m>
-        <a>
-          <a>
-            <m>aref</m>
-            <a>
-              <m>var_ref</m>
-              <a>
-                <m>@const</m>
-                <s>ARGV</s>
-                <a>
-                  <i>21</i>
-                  <i>23</i>
-                </a>
-              </a>
-            </a>
-            <a>
-              <m>args_add_block</m>
-              <a>
-                <a>
-                  <m>@int</m>
-                  <s>0</s>
+                  <m>assign</m>
                   <a>
-                    <i>21</i>
-                    <i>28</i>
+                    <m>var_field</m>
+                    <a>
+                      <m>@ident</m>
+                      <s>ast</s>
+                      <a>
+                        <i>17</i>
+                        <i>4</i>
+                      </a>
+                    </a>
+                  </a>
+                  <a>
+                    <m>method_add_arg</m>
+                    <a>
+                      <m>call</m>
+                      <a>
+                        <m>var_ref</m>
+                        <a>
+                          <m>@const</m>
+                          <s>Ox</s>
+                          <a>
+                            <i>17</i>
+                            <i>10</i>
+                          </a>
+                        </a>
+                      </a>
+                      <m>.</m>
+                      <a>
+                        <m>@ident</m>
+                        <s>load</s>
+                        <a>
+                          <i>17</i>
+                          <i>13</i>
+                        </a>
+                      </a>
+                    </a>
+                    <a>
+                      <m>arg_paren</m>
+                      <a>
+                        <m>args_add_block</m>
+                        <a>
+                          <a>
+                            <m>var_ref</m>
+                            <a>
+                              <m>@ident</m>
+                              <s>rxml</s>
+                              <a>
+                                <i>17</i>
+                                <i>18</i>
+                              </a>
+                            </a>
+                          </a>
+                          <a>
+                            <m>bare_assoc_hash</m>
+                            <a>
+                              <a>
+                                <m>assoc_new</m>
+                                <a>
+                                  <m>symbol_literal</m>
+                                  <a>
+                                    <m>symbol</m>
+                                    <a>
+                                      <m>@ident</m>
+                                      <s>method</s>
+                                      <a>
+                                        <i>17</i>
+                                        <i>25</i>
+                                      </a>
+                                    </a>
+                                  </a>
+                                </a>
+                                <a>
+                                  <m>symbol_literal</m>
+                                  <a>
+                                    <m>symbol</m>
+                                    <a>
+                                      <m>@ident</m>
+                                      <s>object</s>
+                                      <a>
+                                        <i>17</i>
+                                        <i>36</i>
+                                      </a>
+                                    </a>
+                                  </a>
+                                </a>
+                              </a>
+                            </a>
+                          </a>
+                        </a>
+                        <n/>
+                      </a>
+                    </a>
                   </a>
                 </a>
               </a>
-              <n/>
+              <z/>
+              <z/>
+              <z/>
             </a>
           </a>
         </a>
-        <n/>
+        <z/>
+        <z/>
+        <z/>
       </a>
     </a>
   </a>
