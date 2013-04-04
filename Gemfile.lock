@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ox (1.9.4)
+    sorcerer (0.3.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ox
+  sorcerer
